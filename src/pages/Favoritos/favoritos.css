@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    padding: 0;
+    list-style: none;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: brown;
+}
+
+ul li button{
+    margin: 5px;
+    margin-left: 10px;
+}
+
+ul li button:hover{
+    transition: all 0.6s;
+    background-color: brown;
+    color: #fff;
+}
